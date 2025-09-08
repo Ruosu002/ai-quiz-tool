@@ -1,0 +1,35 @@
+# 编译输出
+target/
+*.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IDE文件
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+logs/
+
+# 配置文件
+config.conf
+*.properties
+
+# 临时文件
+*.tmp
+*.swp
+*.bak
+
+# Maven
+dependency-reduced-pom.xml
