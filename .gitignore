@@ -21,6 +21,7 @@ Thumbs.db
 # 日志文件
 *.log
 logs/
+log/
 
 # 配置文件
 config.conf
